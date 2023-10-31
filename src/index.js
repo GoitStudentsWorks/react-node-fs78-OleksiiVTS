@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/final-project-frontend">
+      <BrowserRouter basename="/react-node-fs78-OleksiiVTS">
         <ScrollBarStyles />
         <App />
       </BrowserRouter>
